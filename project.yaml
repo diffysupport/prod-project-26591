@@ -75,7 +75,7 @@ basic:
 advanced:
     mask: ''
     remove: ''
-    isolate: ''
+    isolate: ".baba-popup-sec\n.leave-web-maintenance"
     delay: 40
     scroll: true
     headers:
