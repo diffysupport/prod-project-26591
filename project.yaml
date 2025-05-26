@@ -1,0 +1,92 @@
+basic:
+    name: whitelabeliq
+    environments:
+        production: 'https://www.whitelabeliq.com/'
+        staging: 'https://whitelabelold.wpengine.com/'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /why-wliq
+        - /services
+        - /web-development
+        - /web-development/templated-website-development
+        - /web-development/custom-website-development
+        - /web-development/ecommerce-store-development
+        - /web-development/saas-application-development
+        - /design
+        - /design/ui-ux-design
+        - /design/graphic-design
+        - /design/3d-rendering
+        - /marketing
+        - /marketing/technical-seo-optimization
+        - /marketing/ad-creation
+        - /website-maintenance
+        - /ad-hoc
+        - /hire-dedicated-resources
+        - /hosting
+        - /mobile-application-development
+        - /mobile-application-development/native-ios-and-android-app-development
+        - /mobile-application-development/cross-platform-mobile-app-development
+        - /contact-us
+        - /technologies
+        - /cms
+        - /cms/wordpress
+        - /cms/craft-cms
+        - /cms/drupal
+        - /cms/joomla
+        - /custom-development/laravel
+        - /custom-development/vue-js
+        - /custom-development/react-js
+        - /custom-development/ruby
+        - /custom-development/python
+        - /custom-development/node-js
+        - /ecommerce-development
+        - /ecommerce-development/magento
+        - /ecommerce-development/shopify
+        - /ecommerce-development/woocommerce
+        - /ecommerce-development/bigcommerce
+        - /technology-design
+        - /paid-media
+        - /mobile-apps
+        - /about
+        - /team
+        - /ami
+        - /our-work
+        - /resources
+        - /faq
+        - /blog
+        - /what-great-project-managers-do-that-most-dont-notice-until-the-project-just-works
+        - /this-simple-theme-choice-shapes-seo-ux-and-your-clients-trust
+        - /hiring-feels-harder-because-it-is-but-small-agencies-still-have-the-edge
+        - /gallery
+        - /privacy-policy
+        - /html-sitemap
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
